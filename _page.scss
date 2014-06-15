@@ -21,3 +21,22 @@ html {
     overflow-y: scroll; // [3]
     min-height: 100%; // [4]
 }
+
+
+
+
+
+//    High-level, link styling.
+//
+// 1. Reset/normalize some styles.
+// 2. Set the default link `color` for the entire project.
+a {
+    text-decoration: none; // [1]
+    color: $tree-base-link-color; // [2]
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline; // [1]
+    }
+}

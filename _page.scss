@@ -12,6 +12,7 @@
 //    navigating between pages that do/do not have enough content to produce
 //    scrollbars naturally.
 // 4. Ensure the page always fills at least the entire height of the viewport.
+// 5. Override tap highlight styles.
 html {
     font-family: $tree-base-font-family; // [1]
     font-size: ($tree-base-font-size / 16px) * 1em; // [2]
@@ -20,6 +21,7 @@ html {
     color: $tree-base-text-color;
     overflow-y: scroll; // [3]
     min-height: 100%; // [4]
+    -webkit-tap-highlight-color: transparent; // [5]
 }
 
 

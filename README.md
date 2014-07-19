@@ -1,8 +1,13 @@
 # Page
 
-The `page` module is clone of [inuitcss] (https://github.com/inuitcss) -
-[base.page] (https://github.com/inuitcss/base.page) <q>high level module which
-styles basic, global, page-level aspects such at the project's base `font-size` and
-`line-height`</q>.
+The `page` module is a high level module which styles basic, global, page-level
+aspects such at the project's base `font-size` and `line-height`.
 
-It is develop and maintained by [Harry Roberts] (https://twitter.com/csswizardry).
+Install using Bower:
+
+    $ bower install --save tree-page
+
+## Credits
+
+* **[inuitcss](https://github.com/inuitcss)** Powerful, Sass-based, OOCSS
+framework designed with scalability and performance in mind.

@@ -5,7 +5,15 @@ aspects such at the project's base `font-size` and `line-height`.
 
 Install using Bower:
 
-    $ bower install --save tree-page
+```sh
+$ bower install tree-page --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-page --save
+```
 
 ## Credits
 
